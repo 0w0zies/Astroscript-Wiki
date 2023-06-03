@@ -28,7 +28,13 @@ end
 
 `end` and `break` a lua function that quits out of the current loop or statement it is in, thank `end` for allowing you not to have to indent *angy python noises*
 
-`if` the second most important part of any programming language, this is a bit different from ot
+`if` the second most important part of any programming language
+```
+local a = "a"
+if a == "a":
+  local a = "b"
+```
+this will turn a from "a" to "b"
 
 `function` a lua function, that creates well, a function, shown in the previous example
 
